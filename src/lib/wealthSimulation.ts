@@ -45,9 +45,9 @@ export type SimulationResult = {
 };
 
 export const defaultParams: SimulationParams = {
-  initialWealth: 33000,
-  initialIncome: 100000,
-  initialExpense: 72000,
+  initialWealth: 0,
+  initialIncome: 0,
+  initialExpense: 0,
   returnRate: 0.06,
   incomeGrowthRate: 0.05,
   expenseGrowthRate: 0.03,
